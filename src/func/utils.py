@@ -5,8 +5,7 @@ import numpy as np
 
 def normalize_data(input_data: np.ndarray):
     norm = np.linalg.norm(input_data)
-    normalized = input_data/norm
-    return normalized
+    return input_data/norm
 
 
 def get_train_plot(model_history):
